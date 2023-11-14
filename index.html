@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="had">
+            <input type="text" class="inp" placeholder="Search....">
+            <button class="btn">+NEW USER</button>
+        </div>
+        <div class="tablell">
+            <div class="tableoverflow">
+                <table>
+                    <thead>
+                        <tr class="trr">
+                            <th>User</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Activitu</th>
+                        </tr>
+                    </thead>
+                    <tbody class="box">
+                        <!--  -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <dialog class="dialogadd">
+        <form class="formadd">
+            <input type="text" name="inp1" class="inp1">
+            <input type="text" name="inp2" class="inp2">
+            <button type="submit" class="ADD">ADD</button>
+        </form>
+    </dialog>
+    <dialog class="dialogEdit">
+        <form class="formEdit">
+            <input type="text" name="inp3" class="inp1">
+            <input type="text" name="inp4" class="inp2">
+            <button type="submit" class="ADD">Edit</button>
+        </form>
+    </dialog>
+    <dialog class="dialogshow">
+        <h1 class="h1"></h1>
+        <h1 class="h2"></h1>
+        <h1 class="h3"></h1>
+        <h1 class="h4"></h1>
+        <button class="btnclose">close</button>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
